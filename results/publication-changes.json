@@ -1,0 +1,46 @@
+{
+  "audit_assets.py": {
+    "evaluated_sha256": "67fc018cd17e2245930cbd44e5fd0070f0c763df13598cc93a536044a36970c1",
+    "publication_sha256": "8e2aa4c4d4dee92dbf428d74feb3f699e960690d6c4027197b9f2f4b0dddfd39"
+  },
+  "campaign.py": {
+    "evaluated_sha256": "a6ca90849e4ec36b557075866d2937aedd49d094688390929cfd965d07dfab73",
+    "publication_sha256": "26e5db39d58fc060aa062cc4d24840b32a38ff61045e3ebc6a2e0da12ad87a1a"
+  },
+  "env_adapter.py": {
+    "evaluated_sha256": "ca1b2cd6aaf66f061d6230006dafbc2209fdb9903c293553461a4f4a0f2d292b",
+    "publication_sha256": "761a66efbc84b86c500f01bbeb99a556720c210f5f05094ac72526f1d23d183c"
+  },
+  "patch_transformers.py": {
+    "evaluated_sha256": "e3fd5f480b6593794719fb7c3db0cc88d5283a3c84a25f5b08eded7cf1c565c4",
+    "publication_sha256": "1b6381df3bec25925e71aec79c94b4f868d2ee4a7d252fd489dcb144af50b7c8"
+  },
+  "prepare_tokenizer.py": {
+    "evaluated_sha256": "68db12065635a27271f0fd99ae86015945aff8ea789c75da7edc1772ce267ebc",
+    "publication_sha256": "c64fdccd93a39f5185d34703c8845106036240672d350e83e7c31934ef74ccfd"
+  },
+  "run_episode.py": {
+    "evaluated_sha256": "e7b08c54cb2cdfe2f11caa0b692b87c8528e7a587cfdfecb8f219a98b5b70e7b",
+    "publication_sha256": "c206838c0c170c381f7888d16c5efd2a9bb18b26b738cfa1f003c6ab99a001ab"
+  },
+  "serve_sam3.py": {
+    "evaluated_sha256": "9f1da57656c3217d2e181f82b1ee1f27fa6aa23ea724828e04656cc754a876c4",
+    "publication_sha256": "14225463911fb5e26c6b87928f2218f7bdb92bc3e19c1205b7327e290d31cded"
+  },
+  "setup_harness_env.py": {
+    "evaluated_sha256": "761999960a1da5a23a895692b9bd1f069291f017581718f30ffbc47b3d928b68",
+    "publication_sha256": "16329d9f98aabc538bb2b697dbf13a76f38e6da9516fe22434f59f8eb1c31826"
+  },
+  "setup_policy_env.py": {
+    "evaluated_sha256": "deb2d74d86d5368d0d7203642c3e6533d062882987486a1f7e5f5e52efd435b1",
+    "publication_sha256": "8ffc4264deb2297847f3320c5ee8bc4b867b02382608b8d48d745f48970398c6"
+  },
+  "start_campaign.py": {
+    "evaluated_sha256": "0233371544cedf8ad14fd90eeb3a1787aebe63ec8e3af0371a7143d544f489b3",
+    "publication_sha256": "0e0fc25e21e3649d16e6a3b82235a843c03353c8fba7d46f6f419ebf4f79c9cf"
+  },
+  "start_qwen.py": {
+    "evaluated_sha256": "a412d963fa740ac8be71666c7c5268fa6454facba8f824909f9472c2cf794e9a",
+    "publication_sha256": "a0b2ecc90aec1c0ddd7cd54d56ee09cb95e38f568603f81aa3588c6a741256d6"
+  }
+}
