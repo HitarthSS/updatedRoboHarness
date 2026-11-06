@@ -1,0 +1,20 @@
+{
+  "authors_harness": "35/120 (29.17%)",
+  "categories": [
+    "observation_grounding",
+    "execution_monitoring",
+    "uncertainty_compute",
+    "language_alignment"
+  ],
+  "full_paper_reproduction": false,
+  "horizon": "Spatial 220 / Object 280 controlled actions, 1.0x; recovery included. Fifteen reset-settling actions are reported separately.",
+  "limitations": [
+    "Paper task mappings are inferred, not author-confirmed.",
+    "The exact paper memory, randomized-state manifest and immutable policy checkpoint are unavailable. Our frozen memory is a separately initialized bank.",
+    "The earlier 20-case result is invalid as a controlled comparison because most initial RGB pairs differed.",
+    "Positive paired pilot difference; not full paper reproduction or a confirmed benchmark win."
+  ],
+  "my_harness": "42/120 (35.00%)",
+  "paper_reference": "57.2% position shifts; 55.2% task shifts",
+  "scope": "Twenty mapped LIBERO-PRO conditions, six fresh states each. Position: 19/36 versus 20/36. Task: 16/84 versus 22/84."
+}

@@ -1,0 +1,17 @@
+{
+  "categories": [
+    "observation_grounding",
+    "execution_monitoring",
+    "uncertainty_compute",
+    "language_alignment"
+  ],
+  "entrypoint": "experiments/libero_pro_120/protocol.py",
+  "horizon": "Spatial 220 / Object 280 controlled actions, 1.0x; recovery included. Fifteen reset-settling actions are reported separately.",
+  "models": [
+    "Frozen lerobot/pi05-libero at 9ba5431256f4136a01c224ab0307b0d3035cc92c.",
+    "Qwen/Qwen3-VL-32B-Instruct BF16 at 0cfaf48183f594c314753d30a4c4974bc75f3ccb; SAM3, CLIP and MiniLM support models."
+  ],
+  "paid_api_calls_required": 0,
+  "scope": "Twenty mapped LIBERO-PRO conditions, six fresh states each. Position: 19/36 versus 20/36. Task: 16/84 versus 22/84.",
+  "trainable_parameters": 0
+}

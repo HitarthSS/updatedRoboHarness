@@ -1,0 +1,10 @@
+{
+  "description": "My harness for RoboHarness; frozen-policy source, integration notes, horizons and qualified pilot results.",
+  "existing_repository": true,
+  "main_entrypoint": "experiments/libero_pro_120/protocol.py",
+  "new_visibility": "private",
+  "owner": "HitarthSS",
+  "paper": "https://arxiv.org/abs/2603.24060",
+  "repository": "updatedRoboHarness",
+  "requires_paid_api": false
+}

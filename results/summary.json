@@ -1,0 +1,141 @@
+{
+  "arms": {
+    "baseline": {
+      "episodes": 120,
+      "horizon_violations": 0,
+      "model_json_failures": 0,
+      "paid_api_calls": 0,
+      "policy_forward_calls": 2279,
+      "policy_seconds": 1031.8527232464403,
+      "recovery_steps": 1999,
+      "steps": 24629,
+      "success_percent": 29.166666666666668,
+      "successes": 35,
+      "total_episode_seconds": 91378.27666836698,
+      "vlm_all_calls": 4918,
+      "vlm_all_seconds": 86365.24693405814,
+      "vlm_completion_tokens": 828345,
+      "vlm_missing_usage": 0,
+      "vlm_prompt_tokens": 2939202,
+      "wall_seconds": 90113.75203366252
+    },
+    "improved": {
+      "episodes": 120,
+      "horizon_violations": 0,
+      "model_json_failures": 0,
+      "paid_api_calls": 0,
+      "policy_forward_calls": 2505,
+      "policy_seconds": 1107.492740846239,
+      "recovery_steps": 300,
+      "steps": 23545,
+      "success_percent": 35.0,
+      "successes": 42,
+      "total_episode_seconds": 73443.79875347624,
+      "vlm_all_calls": 4283,
+      "vlm_all_seconds": 68326.01119497139,
+      "vlm_completion_tokens": 665393,
+      "vlm_missing_usage": 0,
+      "vlm_prompt_tokens": 2403766,
+      "wall_seconds": 72179.24065242149
+    }
+  },
+  "by_shift": {
+    "swap": {
+      "baseline": {
+        "episodes": 36,
+        "horizon_violations": 0,
+        "model_json_failures": 0,
+        "paid_api_calls": 0,
+        "policy_forward_calls": 610,
+        "policy_seconds": 276.21284842770547,
+        "recovery_steps": 244,
+        "steps": 6269,
+        "success_percent": 52.77777777777778,
+        "successes": 19,
+        "total_episode_seconds": 24327.390988049097,
+        "vlm_all_calls": 1300,
+        "vlm_all_seconds": 22938.71728487499,
+        "vlm_completion_tokens": 225372,
+        "vlm_missing_usage": 0,
+        "vlm_prompt_tokens": 784972,
+        "wall_seconds": 23947.886497038882
+      },
+      "improved": {
+        "episodes": 36,
+        "horizon_violations": 0,
+        "model_json_failures": 0,
+        "paid_api_calls": 0,
+        "policy_forward_calls": 643,
+        "policy_seconds": 279.3055390007794,
+        "recovery_steps": 45,
+        "steps": 5975,
+        "success_percent": 55.55555555555556,
+        "successes": 20,
+        "total_episode_seconds": 17470.214552607387,
+        "vlm_all_calls": 1098,
+        "vlm_all_seconds": 16081.842144026421,
+        "vlm_completion_tokens": 162842,
+        "vlm_missing_usage": 0,
+        "vlm_prompt_tokens": 576926,
+        "wall_seconds": 17090.582541165408
+      }
+    },
+    "task": {
+      "baseline": {
+        "episodes": 84,
+        "horizon_violations": 0,
+        "model_json_failures": 0,
+        "paid_api_calls": 0,
+        "policy_forward_calls": 1669,
+        "policy_seconds": 755.6398748187348,
+        "recovery_steps": 1755,
+        "steps": 18360,
+        "success_percent": 19.047619047619047,
+        "successes": 16,
+        "total_episode_seconds": 67050.88568031788,
+        "vlm_all_calls": 3618,
+        "vlm_all_seconds": 63426.529649183154,
+        "vlm_completion_tokens": 602973,
+        "vlm_missing_usage": 0,
+        "vlm_prompt_tokens": 2154230,
+        "wall_seconds": 66165.86553662363
+      },
+      "improved": {
+        "episodes": 84,
+        "horizon_violations": 0,
+        "model_json_failures": 0,
+        "paid_api_calls": 0,
+        "policy_forward_calls": 1862,
+        "policy_seconds": 828.1872018454596,
+        "recovery_steps": 255,
+        "steps": 17570,
+        "success_percent": 26.19047619047619,
+        "successes": 22,
+        "total_episode_seconds": 55973.58420086885,
+        "vlm_all_calls": 3185,
+        "vlm_all_seconds": 52244.16905094497,
+        "vlm_completion_tokens": 502551,
+        "vlm_missing_usage": 0,
+        "vlm_prompt_tokens": 1826840,
+        "wall_seconds": 55088.65811125608
+      }
+    }
+  },
+  "completed_pairs": 120,
+  "horizon": "1x: Spatial220/Object280; every recovery charged; 15 reset-settling actions separately disclosed",
+  "interpretation": "Reduced matched pilot on 20 mapped paper conditions, with explicitly documented reproduction gaps",
+  "paired": {
+    "condition_bootstrap_95_difference_pp": [
+      0.8333333333333334,
+      11.666666666666666
+    ],
+    "difference_pp": 5.833333333333333,
+    "episode_bootstrap_95_difference_pp": [
+      0.8333333333333334,
+      11.666666666666666
+    ],
+    "harmed": 2,
+    "helped": 9,
+    "mcnemar_exact_two_sided_p": 0.0654296875
+  }
+}

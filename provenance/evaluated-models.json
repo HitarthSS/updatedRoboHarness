@@ -1,0 +1,42 @@
+{
+  "documented_model_configuration": [
+    "Frozen lerobot/pi05-libero at 9ba5431256f4136a01c224ab0307b0d3035cc92c.",
+    "Qwen/Qwen3-VL-32B-Instruct BF16 at 0cfaf48183f594c314753d30a4c4974bc75f3ccb; SAM3, CLIP and MiniLM support models."
+  ],
+  "model_catalog": {
+    "clip": {
+      "repo": "openai/clip-vit-large-patch14",
+      "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41"
+    },
+    "minilm": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    "qwen3-vl-32b": {
+      "repo": "Qwen/Qwen3-VL-32B-Instruct",
+      "revision": "0cfaf48183f594c314753d30a4c4974bc75f3ccb"
+    }
+  },
+  "sam3": {
+    "bytes": 3450062241,
+    "checkpoint": "sam3.pt",
+    "repository_revision": "not recorded",
+    "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+    "source": "Existing official SAM3 checkpoint reused by both arms"
+  },
+  "support_catalog": {
+    "clip": {
+      "repo": "openai/clip-vit-large-patch14",
+      "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41"
+    },
+    "minilm": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    "pi05-libero": {
+      "repo": "lerobot/pi05-libero",
+      "revision": "9ba5431256f4136a01c224ab0307b0d3035cc92c"
+    }
+  },
+  "weights_included": false
+}

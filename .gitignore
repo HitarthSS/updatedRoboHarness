@@ -35,3 +35,13 @@ failed-setup-attempts/
 *.jpg
 *.npy
 *.npz
+
+# Harness publication artifacts
+*.auth
+*.pem
+*.key
+models/
+cache/
+*.ckpt
+*.zip
+*.tar*
